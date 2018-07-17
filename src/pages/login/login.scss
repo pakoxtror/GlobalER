@@ -1,0 +1,20 @@
+page-login {
+    h1 {
+        text-align: center;
+    }
+    .imagen {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 130px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .datos {
+        margin-bottom: -5px;
+    }
+    .contra {
+        color: grey;
+        font-size: 12px;
+    }
+}
