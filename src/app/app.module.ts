@@ -6,11 +6,13 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { paginasList } from './paginas';
+import {CitasMedicasPage} from '../pages/citas-medicas/citas-medicas'
 
 @NgModule({
   declarations: [
     MyApp,
-    paginasList
+    paginasList,
+    CitasMedicasPage
   ],
   imports: [
     BrowserModule,
@@ -19,7 +21,8 @@ import { paginasList } from './paginas';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    paginasList
+    paginasList,
+    CitasMedicasPage
   ],
   providers: [
     StatusBar,
