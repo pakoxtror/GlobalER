@@ -13,7 +13,7 @@ import {PerfilPage} from '../pages/perfil/perfil';
 })
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
-  rootPage:any = PerfilPage;
+  rootPage:any = LoginPage;
   paginas: Array<{titulo: string, component: any}>;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
@@ -25,7 +25,8 @@ export class MyApp {
     });
     this.paginas = [
       { titulo: 'Inicio', component: HomePage },
-      { titulo: 'Cerrar Sesión', component: LoginPage }
+      {titulo: 'Perfil',component: PerfilPage},
+      { titulo: 'Cerrar Sesión', component: LoginPage }      
     ];
   }
   abrirPagina(page) {
