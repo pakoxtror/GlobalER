@@ -5,7 +5,7 @@ import { RecetasMedicasPage } from '../pages/recetas-medicas/recetas-medicas';
 import { MedicinasPage } from '../pages/medicinas/medicinas';
 import { IndicacionesPage } from '../pages/indicaciones/indicaciones';
 import { DiagnosticoPage } from '../pages/diagnostico/diagnostico';
-
+import {PerfilPage} from '../pages/perfil/perfil';
 
 export const paginasList = [
     HomePage,
@@ -14,5 +14,6 @@ export const paginasList = [
     RecetasMedicasPage,
     MedicinasPage,
     IndicacionesPage,
-    DiagnosticoPage
+    DiagnosticoPage,
+    PerfilPage
 ]
